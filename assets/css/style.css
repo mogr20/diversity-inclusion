@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* CSS variables */
+:root {
+    --primary-font: "Quicksand", sans-serif;
+    /* --secondary-font: "Macondo", cursive; */
+    /* --primary-color: #3a2620; */
+    /* color */
+    /* --secondary-color: #aa9581; */
+    /* color */
+    /* --highlight-color: #416a8e; */
+    /* color */
+    /* --light-highlight-color: #7a9fc2; */
+    /* color */
+}
+
+/* Global styles */
+body {
+    font-family: var(--primary-font);
+}
