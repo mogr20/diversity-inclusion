@@ -27,11 +27,13 @@
 # Introduction
 
 
--# [Back to Contents](#Contents)
+[Back to Contents](#Contents)
+
 # Features
 
 
--# [Back to Contents](#Contents)
+[Back to Contents](#Contents)
+
 # Development Considerations
 
 ![Home](https://github.com/user-attachments/assets/944af5c3-90f7-493c-ab4e-18c33cc06b40)
@@ -64,16 +66,19 @@
 [D&I - laptop.pdf](https://github.com/user-attachments/files/18398788/D.I.-.laptop.pdf)
 [D&I - desktop.pdf](https://github.com/user-attachments/files/18398791/D.I.-.desktop.pdf)
 
--# [Back to Contents](#Contents)
+[Back to Contents](#Contents)
+
 # Testing
 
 
--# [Back to Contents](#Contents)
+[Back to Contents](#Contents)
+
 # Deployment
 
 
--# [Back to Contents](#Contents)
+[Back to Contents](#Contents)
+
 # Credits
 
 
--# [Back to Contents](#Contents)
+[Back to Contents](#Contents)
