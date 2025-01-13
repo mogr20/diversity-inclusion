@@ -6,7 +6,7 @@
 
 - [Intro](#Intro)
 - [Features](#Features)
-- [Development Considerations](#Development_Considerations)
+- [Development Considerations](#Development-Considerations)
 - [Testing](#Testing)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
