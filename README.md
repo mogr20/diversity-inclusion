@@ -1,6 +1,19 @@
 # Diversity & Inclusion
 
+
 ## Project Brief
+
+**External User’s Goal:** The user wants to gain a basic understanding of diversity and inclusion in the workplace or educational environment. They seek straightforward information and tips presented in a clear, organised format.
+
+**Site Owner’s Goal:** The site owner aims to create a visually appealing, easy-to-navigate webpage that introduces diversity and inclusion concepts and offers basic guidance on how to implement these practices. The focus is on clear communication through effective use of HTML and CSS, utilising Bootstrap for layout and design.
+
+### Potential Features might Include:
+
+- **Hero Section:** Use Bootstrap’s Jumbotron or a well-designed header section to introduce the topic with a compelling message and a simple background image or colour.
+- **Information Sections:** Organise content into clear sections using Bootstrap’s grid system with headings and paragraphs that outline key principles of diversity and inclusion.
+- **List of Tips:** A simple list of tips or best practices styled using Bootstrap’s list group component to help users understand how to promote diversity.
+- **Resource Links:** Use Bootstrap’s button styling for links to external resources, making them easy to identify and click.
+
 
 # Contents
 
@@ -13,8 +26,12 @@
 
 # Introduction
 
+
+-# [Back to Contents](#Contents)
 # Features
 
+
+-# [Back to Contents](#Contents)
 # Development Considerations
 
 ![Home](https://github.com/user-attachments/assets/944af5c3-90f7-493c-ab4e-18c33cc06b40)
@@ -47,9 +64,16 @@
 [D&I - laptop.pdf](https://github.com/user-attachments/files/18398788/D.I.-.laptop.pdf)
 [D&I - desktop.pdf](https://github.com/user-attachments/files/18398791/D.I.-.desktop.pdf)
 
-
+-# [Back to Contents](#Contents)
 # Testing
 
+
+-# [Back to Contents](#Contents)
 # Deployment
 
+
+-# [Back to Contents](#Contents)
 # Credits
+
+
+-# [Back to Contents](#Contents)
