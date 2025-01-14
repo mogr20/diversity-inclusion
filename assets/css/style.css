@@ -28,6 +28,15 @@ h1, h2 {
     font-family: var(--primary-font);
 }
 
+h2 {
+    margin-bottom: 1rem;
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 /* Hero */
 #hero {
     /* fill device window */
@@ -41,12 +50,18 @@ h1, h2 {
 /* Intro */
 #intro {
     padding: 0px;
+    margin: 0.5em 0px;
 }
 
-#intro img {
-    max-width: 100%;
-    height: auto;
+/* Links */
+#links .card {
+    margin-bottom: 2rem;
 }
+
+/* #intro img {
+    display: block;
+
+}  */
 
 /* #cover-text { */
     /* Last rgba value here sets the opacity, so it is translucent */
