@@ -39,8 +39,8 @@ h2 {
 
 /* Hero */
 #hero {
-    /* fill device window */
-    height: 90vh;
+    /* fill device window, need fixed navbar height to get accurate number */
+    height: 95vh;
     width: 100vw;
     /* image url, don't repeat, center horizontally and vertically, and automatically size/crop itself to fit the whole hero section */
     background: url("../images/hero-image.webp") no-repeat center center/cover;
@@ -50,7 +50,6 @@ h2 {
 /* Intro */
 #intro {
     padding: 0px;
-    margin: 0.5em 0px;
 }
 
 /* Links */
