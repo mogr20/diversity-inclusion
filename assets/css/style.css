@@ -4,18 +4,19 @@
 :root {
     --primary-font: "Outfit", sans-serif;
     --secondary-font: "Quicksand", sans-serif;
-    /* --primary-color: #3a2620; */
-    /* color */
-    /* --secondary-color: #aa9581; */
-    /* color */
-    /* --highlight-color: #416a8e; */
-    /* color */
-    /* --light-highlight-color: #7a9fc2; */
-    /* color */
+    --primary-color: #d5c4b6;
+    /* light biege */
+    --secondary-color: #9a8472;
+    /* biege */
+    --highlight-color: #9095ab;
+    /* blue */
+    --light-highlight-color: #a6b2c3;
+    /* light blue */
 }
 
 /* Global styles */
 body {
+    margin: 0;
     font-family: var(--secondary-font);
 }
 
@@ -25,16 +26,17 @@ h1, h2 {
 
 /* Hero */
 #hero {
-    height: 100%;
-    width: 100%;
+    /* fill device window */
+    height: 90vh;
+    width: 100vw;
     /* image url, don't repeat, center horizontally and vertically, and automatically size/crop itself to fit the whole hero section */
     background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
 
-#cover-text {
+/* #cover-text { */
     /* Last rgba value here sets the opacity, so it is translucent */
-    background-color: rgba(241, 109, 107, .7);
+    /* background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -42,4 +44,15 @@ h1, h2 {
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
+} */
+
+/* Footer - AI generated */
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
