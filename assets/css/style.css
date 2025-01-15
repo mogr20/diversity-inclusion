@@ -123,8 +123,12 @@ h3, h4, h5 {
     margin-right: auto;
 }
 
-#intro .img-border {
-    max-height: 565px;
+/* displays the mobile title, and hides xl title */
+#xl-hidden {
+    display: block;
+}
+#xl-visible {
+    display: none;
 }
 
 /* Tips */
@@ -183,4 +187,33 @@ footer {
     width: 100%;
     /* shift text down a bit */
     padding-top: 1rem;
+}
+
+/* Media Query for laptops/small desktop monitors */
+@media screen and (min-width: 992px) {
+    /* remove whitespace under intro text */
+    #intro .img-border {
+        max-height: 555px;
+    }
+    #intro ul {
+        margin-bottom: 0;
+    }
+}
+
+/* Media Query for desktop devices */
+@media screen and (min-width: 1200px) {
+    /* remove whitespace under intro text */
+    #intro .img-border {
+        max-height: 555px;
+    }
+    #intro ul {
+        margin-bottom: 1rem;
+    }
+    /* displays the xl title, and hides mobile title */
+    #xl-hidden {
+        display: none;
+    }
+    #xl-visible {
+        display: block;
+    }
 }
