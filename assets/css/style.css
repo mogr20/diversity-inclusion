@@ -38,6 +38,10 @@ h2 {
     margin-bottom: 1rem;
 }
 
+h3, h4, h5 {
+    color: var(--highlight-color);
+}
+
 .section {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -120,7 +124,6 @@ h2 {
 /* Tips */
 #tips h3 {
     font-size: 1.1rem;
-    color: var(--highlight-color);
 }
 
 /* Diversity */
@@ -140,12 +143,8 @@ h2 {
 }
 
 #links h5 {
-    color: var(--highlight-color);
     font-size: 1.5rem;
-}
-
-#links p {
-    color: var(--black-color);
+    color: var(--highlight-color);
 }
 
 /* Link buttons */
@@ -164,7 +163,6 @@ h2 {
 /* Footer - AI generated */
 footer {
     background-color: var(--primary-color);
-    color: var(--black-color);
     padding-bottom: 3rem;
     text-align: center;
     bottom: 0;
