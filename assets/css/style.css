@@ -51,6 +51,10 @@ h3, h4, h5 {
     color: var(--highlight-color);
 }
 
+.img-border {
+    border-radius: 15px;
+}
+
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
@@ -120,7 +124,7 @@ h3, h4, h5 {
 }
 
 #intro .img-border {
-    border-radius: 15px;
+    max-height: 565px;
 }
 
 /* Tips */
