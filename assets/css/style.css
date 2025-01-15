@@ -110,6 +110,14 @@ h2 {
 #intro {
     margin: 0px;
     margin-top: 1rem;
+    /* center image and content */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#intro .img-border {
+    border-radius: 15px;
 }
 
 /* Tips */
