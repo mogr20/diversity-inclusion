@@ -82,7 +82,7 @@ html {
     width: 100vw;
     background-color: var(--secondary-color);
 
-    background-image: url("../images/hero-image.webp");
+    /* background-image: url("../images/hero-image.webp"); */
     background-repeat: no-repeat;
     /* better positioning on mobile and larger devices */
     background-position: 48% 0%;
