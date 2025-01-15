@@ -74,31 +74,11 @@ h3, h4, h5 {
 
     background-image: url("../images/hero-image.webp");
     background-repeat: no-repeat;
+    /* better positioning on mobile and larger devices */
     background-position: 48% 0%;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
-}
-
-#hero h1, #hero p {
-    color: var(--black-color);
-    position: relative;
-    text-align: center;
-}
-
-#hero br {
-    /* adjust line break within quote box */
-    display: block;
-    margin: 5px 0;
-}
-
-#hero h1 {  
-    font-size: 1.3rem;
-    font-style: italic;
-}
-
-#hero p {
-    font-size: 1rem;
 }
 
 #cover-text {
@@ -113,7 +93,23 @@ h3, h4, h5 {
     min-height: 100px;
     transform: translate(-50%, -50%);
     /* limits hero text background on tablet devices */
-    max-width: 535px;
+    max-width: 350px;
+}
+
+#hero h3, #hero p {
+    color: var(--black-color);
+    position: relative;
+    text-align: center;
+}
+
+#hero h3 {  
+    font-size: 1.3rem;
+    font-style: italic;
+    margin: 10px 5px 0px;
+}
+
+#hero p {
+    font-size: 1rem;
 }
 
 /* Intro */
