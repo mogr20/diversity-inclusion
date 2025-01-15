@@ -67,29 +67,28 @@ h2 {
     position: relative;
 }
 
-/* AI generated */
-#hero h1 {
+#hero h1, #hero p {
     color: var(--black-color);
-    font-size: 3rem;
-    position: absolute;
-    /* position in #cover-text */
-    top: 35%;
-    left: 50%;
-    /* text is centered to the #cover-text image */
-    transform: translate(-50%, -50%);
+    position: relative;
+    text-align: center;
+}
+
+#hero br {
+    /* adjust line break within quote box */
+    display: block;
+    margin: 5px 0;
+}
+
+#hero h1 {  
+    font-size: 1.3rem;
+    font-style: italic;
 }
 
 #hero p {
-    color: var(--black-color);
-    font-size: 1.3rem;
-    position: absolute;
-    /* position in #cover-text */
-    top: 70%;
-    left: 50%;
-    /* text is centered to the #cover-text image */
-    transform: translate(-50%, -50%);
+    font-size: 1rem;
 }
 
+/* ai generated for position and transform */
 #cover-text {
     /* Last rgba value here sets the opacity, so it is translucent */
     background-color: var(--translucent-secondary);
@@ -98,7 +97,7 @@ h2 {
     /* position in image */
     top: 75%;
     left: 50%;
-    width: 50%;
+    width: 70%;
     min-height: 100px;
     /* padding-top: 40px;
     padding-left: 10px; */
