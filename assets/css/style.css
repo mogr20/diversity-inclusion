@@ -125,6 +125,19 @@ h2 {
 /* Links */
 #links .card {
     margin-bottom: 2rem;
+    border: none;
+}
+
+.custom-button-outline {
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid var(--highlight-color);
+    color: var(--highlight-color);
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    color: white;
 }
 
 /* #intro img {
