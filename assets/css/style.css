@@ -120,6 +120,7 @@ h2 {
 /* Tips */
 #tips h3 {
     font-size: 1.1rem;
+    color: var(--highlight-color);
 }
 
 /* Diversity */
