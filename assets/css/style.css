@@ -37,6 +37,17 @@ h2 {
     margin-bottom: 2rem;
 }
 
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
 /* Hero */
 #hero {
     /* fill device window, need fixed navbar height to get accurate number */
@@ -45,11 +56,27 @@ h2 {
     /* image url, don't repeat, center horizontally and vertically, and automatically size/crop itself to fit the whole hero section */
     background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
+    margin-top: 4rem;
 }
 
 /* Intro */
 #intro {
-    padding: 0px;
+    margin: 0px;
+}
+
+/* Tips */
+#tips {
+    text-align: center;
+}
+
+/* Diversity */
+#diversity {
+    text-align: center;
+}
+
+/* Inclusion */
+#inclusion {
+    text-align: center;
 }
 
 /* Links */
