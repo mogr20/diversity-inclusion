@@ -16,6 +16,9 @@
     /* light blue */
     --black-color: #343635;
     /* black */
+
+    --translucent-secondary: rgba(154, 132, 114, .8);
+    /* biege, translucent */
 }
 
 /* Global styles */
@@ -37,15 +40,14 @@ h2 {
     margin-bottom: 2rem;
 }
 
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 1rem;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
+    color: var(--black-color);
 }
 
 /* Hero */
@@ -56,7 +58,46 @@ h2 {
     /* image url, don't repeat, center horizontally and vertically, and automatically size/crop itself to fit the whole hero section */
     background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
+}
+
+/* AI generated */
+#hero h1 {
+    color: var(--primary-color);
+    font-size: 3rem;
+    position: absolute;
+    /* position in #cover-text */
+    top: 35%;
+    left: 50%;
+    /* text is centered to the #cover-text image */
+    transform: translate(-50%, -50%);
+}
+
+#hero p {
+    color: var(--black-color);
+    font-size: 1.3rem;
+    position: absolute;
+    /* position in #cover-text */
+    top: 70%;
+    left: 50%;
+    /* text is centered to the #cover-text image */
+    transform: translate(-50%, -50%);
+}
+
+#cover-text {
+    /* Last rgba value here sets the opacity, so it is translucent */
+    background-color: var(--translucent-secondary);
+    /* font-size: 130%; */
+    position: absolute;
+    /* position in image */
+    top: 75%;
+    left: 50%;
+    width: 50%;
+    min-height: 100px;
+    /* padding-top: 40px;
+    padding-left: 10px; */
+    /* text is centered to the hero image */
+    transform: translate(-50%, -50%);
 }
 
 /* Intro */
