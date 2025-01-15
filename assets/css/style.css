@@ -31,6 +31,7 @@ body {
 h1, h2 {
     font-family: var(--primary-font);
     color: var(--black-color);
+    text-align: center;
 }
 
 h2 {
@@ -117,19 +118,19 @@ h2 {
 }
 
 /* Tips */
-#tips {
-    text-align: center;
+#tips h3 {
+    font-size: 1.1rem;
 }
 
 /* Diversity */
-#diversity {
-    text-align: center;
-}
+/* #diversity {
+    
+} */
 
 /* Inclusion */
-#inclusion {
-    text-align: center;
-}
+/* #inclusion {
+    
+} */
 
 /* Links */
 #links .card {
