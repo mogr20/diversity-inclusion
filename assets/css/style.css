@@ -70,7 +70,8 @@ h3, h4, h5 {
     /* fill device window, excluding navbar */
     height: 100vh;
     width: 100vw;
-    /* image url, don't repeat, center horizontally and vertically, and automatically size/crop itself to fit the whole hero section */
+    background-color: var(--secondary-color);
+
     background-image: url("../images/hero-image.webp");
     background-repeat: no-repeat;
     background-position: 48% 0%;
@@ -111,6 +112,8 @@ h3, h4, h5 {
     width: 70%;
     min-height: 100px;
     transform: translate(-50%, -50%);
+    /* limits hero text background on tablet devices */
+    max-width: 535px;
 }
 
 /* Intro */
@@ -121,6 +124,11 @@ h3, h4, h5 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#intro #top-list {
+    /* remove new line between the two lists */
+    margin-bottom: 0;
 }
 
 /* displays the mobile title, and hides xl title */
@@ -195,18 +203,12 @@ footer {
     #intro .img-border {
         max-height: 555px;
     }
-    #intro ul {
-        margin-bottom: 0;
-    }
 }
 
 /* Media Query for desktop devices */
 @media screen and (min-width: 1200px) {
     /* remove whitespace under intro text */
-    #intro .img-border {
-        max-height: 555px;
-    }
-    #intro ul {
+    #intro #top-list {
         margin-bottom: 1rem;
     }
     /* displays the xl title, and hides mobile title */
