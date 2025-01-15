@@ -64,6 +64,7 @@ h2 {
     margin-top: 6vh;
     /* image url, don't repeat, center horizontally and vertically, and automatically size/crop itself to fit the whole hero section */
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -88,20 +89,16 @@ h2 {
     font-size: 1rem;
 }
 
-/* ai generated for position and transform */
 #cover-text {
     /* Last rgba value here sets the opacity, so it is translucent */
     background-color: var(--translucent-secondary);
     /* font-size: 130%; */
     position: absolute;
-    /* position in image */
+    /* position in image, ai generated */
     top: 75%;
     left: 50%;
     width: 70%;
     min-height: 100px;
-    /* padding-top: 40px;
-    padding-left: 10px; */
-    /* text is centered to the hero image */
     transform: translate(-50%, -50%);
 }
 
@@ -143,12 +140,10 @@ h2 {
 #links h5 {
     color: var(--highlight-color);
     font-size: 1.5rem;
-    /* text-align: center; */
 }
 
 #links p {
     color: var(--black-color);
-    /* text-align: center; */
 }
 
 /* Link buttons */
@@ -157,32 +152,12 @@ h2 {
     background-color: white;
     border: 3px solid var(--highlight-color);
     color: var(--highlight-color);
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto; */
 }
 
 .custom-button-outline:hover {
     background-color: var(--highlight-color);
     color: white;
 }
-
-/* #intro img {
-    display: block;
-
-}  */
-
-/* #cover-text { */
-    /* Last rgba value here sets the opacity, so it is translucent */
-    /* background-color: rgba(241, 109, 107, .7);
-    font-size: 130%;
-    position: absolute;
-    bottom: 30px;
-    width: 80%;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-} */
 
 /* Footer - AI generated */
 footer {
