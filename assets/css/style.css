@@ -58,13 +58,13 @@ h2 {
 
 /* Hero */
 #hero {
-    /* fill device window, need fixed navbar height to get accurate number */
-    height: 95vh;
+    /* fill device window, excluding navbar */
+    height: 94vh;
     width: 100vw;
+    margin-top: 6vh;
     /* image url, don't repeat, center horizontally and vertically, and automatically size/crop itself to fit the whole hero section */
     background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
-    /* margin-top: 4rem; */
 }
 
 /* AI generated */
