@@ -17,7 +17,7 @@
     --black-color: #343635;
     /* black */
 
-    --translucent-secondary: rgba(154, 132, 114, .8);
+    --translucent-secondary: rgba(213, 196, 182, .7);
     /* biege, translucent */
 }
 
@@ -25,10 +25,12 @@
 body {
     margin: 0;
     font-family: var(--secondary-font);
+    color: var(--black-color);
 }
 
 h1, h2 {
     font-family: var(--primary-font);
+    color: var(--black-color);
 }
 
 h2 {
@@ -63,7 +65,7 @@ h2 {
 
 /* AI generated */
 #hero h1 {
-    color: var(--primary-color);
+    color: var(--black-color);
     font-size: 3rem;
     position: absolute;
     /* position in #cover-text */
