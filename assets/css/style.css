@@ -59,7 +59,7 @@ h3, h4, h5 {
 
 html {
     /* ensures navbar doesn't obscure section headings */
-    scroll-padding-top: 55px;
+    scroll-padding-top: 65px;
 }
 
 #diversity, #inclusion {
