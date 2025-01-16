@@ -20,7 +20,6 @@
 </head>
 
 <body class="d-flex flex-column">
-
     <!-- Navbar -->
     <nav id="navbar" class="navbar fixed-top navbar-expand-lg">
         <div class="container-fluid">
@@ -266,7 +265,8 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card">
-                        <img src="assets/images/business-disability-forum.webp" class="card-img-top" alt="business disability forum logo">
+                        <img src="assets/images/business-disability-forum.webp" class="card-img-top"
+                            alt="business disability forum logo">
                         <div class="card-body">
                             <h5 class="card-title">Business Disability Forum</h5>
                             <p class="card-text">Business membership organisation in disability inclusion.</p>
@@ -293,6 +293,22 @@
     <!-- Bootstrap JS Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+    <!-- AI generated JS to collapse burger menu on link click -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var navbarCollapse = document.querySelector('.navbar-collapse');
+            var navLinks = document.querySelectorAll('.nav-link');
+
+            navLinks.forEach(function (link) {
+                link.addEventListener('click', function () {
+                    if (navbarCollapse.classList.contains('show')) {
+                        new bootstrap.Collapse(navbarCollapse).toggle();
+                    }
+                });
+            });
+        });
     </script>
 </body>
 
