@@ -62,8 +62,12 @@ html {
     scroll-padding-top: 65px;
 }
 
+main {
+    padding-top: 1.5rem;
+}
+
 #diversity, #inclusion {
-    /* adds padding to top of page */
+    /* adds padding to top of non-hero pages */
     padding-top: 40px;
 }
 
@@ -84,7 +88,7 @@ html {
 #navbar .active {
     /* underline and slightly bolden active page */
     text-decoration: underline;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* Hero */
@@ -215,17 +219,27 @@ footer {
 /* Media Query for laptops/small desktop monitors */
 @media screen and (min-width: 992px) {
     /* limit image size, scaled too large */
-    #intro .img-border {
+    #intro img {
         max-height: 555px;
     }
 }
 
 /* Media Query for desktop devices */
 @media screen and (min-width: 1200px) {
+    /* more heading spacing */
+    h2 {
+        margin-bottom: 1.5rem;
+    }
+
     /* add spacing back in when lists are split */
     #intro #top-list {
         margin-bottom: 1rem;
     }
+    /* limit image size, scaled too large */
+    #intro img {
+        max-height: 525px;
+    } 
+
     /* displays the xl title, and hides mobile title */
     #xl-hidden {
         display: none;
