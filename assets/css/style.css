@@ -82,7 +82,9 @@ html {
 }
 
 #navbar .active {
-    font-style: underline;
+    /* underline and slightly bolden active page */
+    text-decoration: underline;
+    font-weight: 500;
 }
 
 /* Hero */
