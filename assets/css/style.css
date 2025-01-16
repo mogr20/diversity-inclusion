@@ -35,11 +35,11 @@ h1, h2 {
     text-align: center;
 }
 
-h2 {
+h1 {
     margin-bottom: 1rem;
 }
 
-h3, h4, h5 {
+h3, h4, h5{
     color: var(--highlight-color);
 }
 
@@ -227,7 +227,7 @@ footer {
 /* Media Query for desktop devices */
 @media screen and (min-width: 1200px) {
     /* more heading spacing */
-    h2 {
+    h1 {
         margin-bottom: 1.5rem;
     }
 
