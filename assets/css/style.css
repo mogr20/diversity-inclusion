@@ -62,6 +62,11 @@ html {
     scroll-padding-top: 55px;
 }
 
+#diversity, #inclusion {
+    /* adds padding to top of page */
+    padding-top: 40px;
+}
+
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
