@@ -297,16 +297,17 @@
 
     <!-- AI generated JS to collapse burger menu on link click -->
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var navbarCollapse = document.querySelector('.navbar-collapse');
-            var navLinks = document.querySelectorAll('.nav-link');
-
-            navLinks.forEach(function (link) {
-                link.addEventListener('click', function () {
-                    if (navbarCollapse.classList.contains('show')) {
-                        new bootstrap.Collapse(navbarCollapse).toggle();
-                    }
-                });
+        const navLinks = document.querySelectorAll('.nav-item:not(.dropdown)');
+        const menuToggle = document.getElementById('navbarSupportedContent');
+        const bsCollapse = new bootstrap.Collapse(menuToggle, {
+            toggle: false
+        });
+        navLinks.forEach(function (l) {
+            l.addEventListener('click', function () {
+                // avoid flickering on desktop
+                if (menuToggle.classList.contains('show')) {
+                    bsCollapse.toggle();
+                }
             });
         });
     </script>
