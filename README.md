@@ -31,6 +31,24 @@
 
 # Features
 
+> Fully responsive fixed navbar.
+    Links to; Home (hero), Introduction (opener), Tips (policy implementation tips), Diversity, Inclusion, Links (external link cards to further resources)
+    The fixed navbar ensures navigation is always visible and available for ease of use.
+    Burger toggle collapsable navbar for mobile and tablet, and full navbar (no dropdown) for laptops and desktops.
+> Hero section with inspirational quote.
+    Eases users into the subject, and gives the correct emotive feel (positivity) of the subject matter.
+    Fixed hero image with quote overlay, ensures the quote can always be read regardless of scroll.
+    Adjusts size of hero and quote for all devices, to ensure visibility and ease to read quote.
+> Introduction (What is Diversity & Inclusion?) section.
+    Fully responsive, and fills whitespace throughout all devices.
+    Split unordered list helps to eliminate this whitespace on larger devices.
+> Information sections. (Diversity, Inclusion sections)
+> Tips section.
+    Fully responsive, with titles and text size matching when split into 2x2 row and columns on larger devices.
+> Links section.
+    Fully responsive, 1x6 column and rows for small devices, 2x3 column and rows for medium devices, finally 3x2 column and rows for larger devices.
+    Links within card component allows easy editing or change of links, and for updating or changing their styling.
+> Footer.
 
 [Back to Contents](#Contents)
 
@@ -70,15 +88,31 @@
 
 # Testing
 
+1. HTML no errors were found when passed through the W3C Markup validator.
+2. CSS no errors were found when passed through the W3C CSS validator.
 
 [Back to Contents](#Contents)
 
 # Deployment
 
+1. Clone the repository
+``` git clone https://github.com/mogr20/diversity-inclusion.git ```
+2. Open ```index.html``` in your web browser to view the website.
 
 [Back to Contents](#Contents)
 
 # Credits
 
+![hero-image.webp](https://raw.githubusercontent.com/mogr20/diversity-inclusion/refs/heads/main/assets/images/hero-image.webp)
+- [Fauxels](https://www.pexels.com/@fauxels/), stock image via the pexels site.
+
+![intro-image.webp](https://raw.githubusercontent.com/mogr20/diversity-inclusion/refs/heads/main/assets/images/intro-image.webp)
+- [Antoni Shkraba](https://www.pexels.com/@shkrabaanthony/), stock image via the pexels site.
+
+![acas-logo.webp](https://raw.githubusercontent.com/mogr20/diversity-inclusion/refs/heads/main/assets/images/acas-logo.webp)
+- [ACAS](https://www.acas.org.uk/), logo from the ACAS website.
+
+![equalities-office.webp](https://raw.githubusercontent.com/mogr20/diversity-inclusion/refs/heads/main/assets/images/equalities-office.webp)
+- [Gov Office Equality](https://www.gov.uk/government/organisations/office-for-equality-and-opportunity), logo from the Government Office for Equality and Opportunity.
 
 [Back to Contents](#Contents)
