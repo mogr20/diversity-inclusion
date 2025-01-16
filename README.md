@@ -109,10 +109,10 @@
 
 # Credits
 
-![hero-image.webp](https://github.com/user-attachments/assets/1dd0f31f-68e4-48d7-b8a2-4dffe994f196)
+![hero-image.webp](https://github.com/user-attachments/assets/cc7d240f-f7b8-44ef-ac24-141d19b75da6)
 - [Fauxels](https://www.pexels.com/@fauxels/), stock image via the pexels site.
 
-![intro-image.webp](https://github.com/user-attachments/assets/6858d822-305d-4a99-a1c9-9aa565a47005)
+![intro-image.webp](https://github.com/user-attachments/assets/bcd5479f-63c3-438a-9c34-0af013a4ca4a)
 - [Antoni Shkraba](https://www.pexels.com/@shkrabaanthony/), stock image via the pexels site.
 
 ![acas-logo.webp](https://raw.githubusercontent.com/mogr20/diversity-inclusion/refs/heads/main/assets/images/acas-logo.webp)
@@ -122,4 +122,3 @@
 - [Gov Office Equality](https://www.gov.uk/government/organisations/office-for-equality-and-opportunity), logo from the Government Office for Equality and Opportunity.
 
 [Back to Contents](#Contents)
-
