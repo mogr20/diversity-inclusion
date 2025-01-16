@@ -17,6 +17,7 @@
     --black-color: #343635;
     /* black */
 
+    /* same as secondary-color, but with some transparency */
     --translucent-secondary: rgba(213, 196, 182, .7);
     /* biege, translucent */
 }
@@ -52,13 +53,13 @@ h3, h4, h5 {
 }
 
 .img-border {
+    /* rounds image corners */
     border-radius: 15px;
 }
 
 html {
-    /* on click from burger menu, ensures text isn't obscured */
-    scroll-padding-top: 310px;
-    /* scroll-padding-top: 55px; */
+    /* ensures navbar doesn't obscure section headings */
+    scroll-padding-top: 55px;
 }
 
 /* Navbar */
@@ -77,7 +78,7 @@ html {
 
 /* Hero */
 #hero {
-    /* fill device window, excluding navbar */
+    /* fill device window */
     height: 100vh;
     width: 100vw;
     background-color: var(--secondary-color);
@@ -92,9 +93,7 @@ html {
 }
 
 #cover-text {
-    /* Last rgba value here sets the opacity, so it is translucent */
     background-color: var(--translucent-secondary);
-    /* font-size: 130%; */
     position: absolute;
     /* position in image, ai generated */
     top: 75%;
@@ -133,12 +132,12 @@ html {
 }
 
 #intro #top-list {
-    /* remove new line between the two lists */
+    /* remove new line spacing between the two lists */
     margin-bottom: 0;
 }
 
-/* displays the mobile title, and hides xl title */
 #xl-hidden {
+    /* displays the mobile title, and hides xl title */
     display: block;
 }
 #xl-visible {
@@ -172,6 +171,7 @@ html {
 }
 
 #links img {
+    /* limits logo size for improved look, and left margin inline with text */
     max-width: 240px;
     object-fit: contain;
     margin-left: 20px;
@@ -203,7 +203,7 @@ footer {
 
 /* Media Query for laptops/small desktop monitors */
 @media screen and (min-width: 992px) {
-    /* remove whitespace under intro text */
+    /* limit image size, scaled too large */
     #intro .img-border {
         max-height: 555px;
     }
@@ -211,7 +211,7 @@ footer {
 
 /* Media Query for desktop devices */
 @media screen and (min-width: 1200px) {
-    /* remove whitespace under intro text */
+    /* add spacing back in when lists are split */
     #intro #top-list {
         margin-bottom: 1rem;
     }
