@@ -65,13 +65,9 @@ html {
     scroll-behavior: auto;
 }
 
-main {
+main, #diversity, #inclusion {
+    /* adds padding to prevent navbar blocking titles */
     padding-top: 1.5rem;
-}
-
-#diversity, #inclusion {
-    /* adds padding to top of non-hero pages */
-    padding-top: 40px;
 }
 
 /* Navbar */
