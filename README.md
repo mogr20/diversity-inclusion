@@ -78,10 +78,10 @@ Note, this is not an exhaustive list of all wireframe images, the full low-fidel
 
 
 
-[D&I - mobile.pdf](https://github.com/user-attachments/files/18398785/D.I.-.mobile.pdf)
-[D&I - tablet.pdf](https://github.com/user-attachments/files/18398786/D.I.-.tablet.pdf)
-[D&I - laptop.pdf](https://github.com/user-attachments/files/18398788/D.I.-.laptop.pdf)
-[D&I - desktop.pdf](https://github.com/user-attachments/files/18398791/D.I.-.desktop.pdf)
+- [Mobile wireframe PDF](https://github.com/user-attachments/files/18398785/D.I.-.mobile.pdf)
+- [Tablet wireframe PDF](https://github.com/user-attachments/files/18398786/D.I.-.tablet.pdf)
+- [Laptop wireframe PDF](https://github.com/user-attachments/files/18398788/D.I.-.laptop.pdf)
+- [Desktop wireframe PDF](https://github.com/user-attachments/files/18398791/D.I.-.desktop.pdf)
 
 [Back to Contents](#Contents)
 
