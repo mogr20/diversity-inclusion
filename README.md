@@ -70,9 +70,9 @@ Finally, for additional learning, the site needs to host several external resour
 
 Note, this is not an exhaustive list of all wireframe images, the full low-fidelity wireframe can be viewed via the attached pdf's at the end of this section.
 
-![Home](https://github.com/user-attachments/assets/944af5c3-90f7-493c-ab4e-18c33cc06b40)
-![Introduction](https://github.com/user-attachments/assets/c94bcba9-74b3-4f05-85c0-a8a267c78f21)
-![Links](https://github.com/user-attachments/assets/bb10013c-0c0f-4290-9266-922e1e61eb62)
+![Home](https://github.com/user-attachments/assets/97f0c31a-bbff-414a-9952-ce673e798957)
+![Introduction](https://github.com/user-attachments/assets/b8ac0a26-c0a5-4942-ac84-6f83ac3800ac)
+![Links](https://github.com/user-attachments/assets/6c460b72-57c6-4b50-be0b-66fa53bba953)
 
 
 ![Introduction](https://github.com/user-attachments/assets/22e36899-21ee-413d-a386-d07544b3c1c8)
