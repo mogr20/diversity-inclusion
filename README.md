@@ -58,6 +58,7 @@ Finally, for additional learning, the site needs to host several external resour
 - Split unordered list helps to eliminate this whitespace on larger devices.
 
 > Information sections. (Diversity, Inclusion sections)
+- Full responsive content.
 
 > Tips section.
 - Fully responsive, with titles and text size matching when split into 2x2 row and columns on larger devices.
