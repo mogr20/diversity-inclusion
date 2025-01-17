@@ -102,7 +102,9 @@ I used AI at times to rapidly build css template style rules, before modifying t
 
 I also used AI for generating text content for the Diversity and Inclusion information sections.
 
-The use of AI within this project allowed for a more rapid development, by allowing myself to focus on design decisions rather than content. However I found it unnecessary to use AI to create large sections of code (especially in the HTML) because I have a good understanding of HTML and CSS, and with the emmet extension auto-complete features I found that this automation already provided a significant improvement to code writing time. I feared that having AI create large sections of code would not save time, as it would generate code I might not understand, or might have significant bloat within it that would take time to modify. This fear came from earlier work in my independent learning from the course.
+The use of AI within this project allowed for a more rapid development, by allowing myself to focus on design decisions rather than content. However I found it unnecessary to use AI to create large sections of code (especially in the HTML) because I have a good understanding of HTML and CSS, and with the emmet extension auto-complete features I found that this automation already provided a significant improvement to code writing time.
+
+I feared that having AI create large sections of code would not save time, as it would generate code I might not understand, or might have significant bloat within it that would take time to modify. This fear came from earlier work in my independent learning from the course.
 
 [Back to Contents](#Contents)
 
