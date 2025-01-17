@@ -97,6 +97,8 @@
 1. HTML no errors were found when passed through the W3C Markup validator.
 2. CSS no errors were found when passed through the W3C CSS validator.
 
+Whilst testing, I used Firefox for desktop and resized the viewport using development tools, and also tested the site on my mobile. However during public testing, a user noticed that Chromium browsers for desktop render the site with a horizontal scroll bar, with about 10-20 pixels off to the right of the site.
+
 [Back to Contents](#Contents)
 
 # Deployment
