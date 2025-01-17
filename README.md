@@ -108,6 +108,7 @@ The use of AI within this project allowed for a more rapid development, by allow
 2. CSS no errors were found when passed through the W3C CSS validator.
 
 Whilst testing, I used Firefox for desktop and resized the viewport using development tools, and also tested the site on my mobile. However during public testing, a user noticed that Chromium browsers for desktop render the site with a horizontal scroll bar, with about 10-20 pixels off to the right of the site.
+
 Additional public testing on an iPad Safari browser, it was discovered that the cover property doesn't work, (or perhaps fixed isn't supported) and so the image shows the positioning correctly of the top of the blackboard and chalk smudges, but the rest of the hero image is too big and off-screen.
 
 Testing included:
