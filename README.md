@@ -19,40 +19,47 @@
 
 - [Intro](#Intro)
 - [Features](#Features)
-- [Development Considerations](#Development-Considerations)
+- [Wireframes](#Development-Considerations)
 - [Testing](#Testing)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
 
 # Introduction
+The goal for this website is for new and experienced users to learn about Diversity and Inclusion, either as; a business, an organisation, a charity, or an individual.
 
+Therefore, the site needs a homepage that can introduce the topics to a new learner/user of the topic, as well as a navigation that experienced learners/users can use to access additional or more full information.
+
+Finally, for additional learning, the site needs to host several external resources or links to further educate on the topic.
 
 [Back to Contents](#Contents)
 
 # Features
 
 > Fully responsive fixed navbar.
-    Links to; Home (hero), Introduction (opener), Tips (policy implementation tips), Diversity, Inclusion, Links (external link cards to further resources)
-    The fixed navbar ensures navigation is always visible and available for ease of use.
-    Burger toggle collapsable navbar for mobile and tablet, and full navbar (no dropdown) for laptops and desktops.
+
+- Links to; Home (hero), Introduction (opener), Tips (policy implementation tips), Diversity, Inclusion, Links (external link cards to further resources)
+- The fixed navbar ensures navigation is always visible and available for ease of use.
+- Burger toggle collapsable navbar for mobile and tablet, and full navbar (no dropdown) for laptops and desktops.
 
 > Hero section with inspirational quote.
-    Eases users into the subject, and gives the correct emotive feel (positivity) of the subject matter.
-    Fixed hero image with quote overlay, ensures the quote can always be read regardless of scroll.
-    Adjusts size of hero and quote for all devices, to ensure visibility and ease to read quote.
+
+- Eases users into the subject, and gives the correct emotive feel (positivity) of the subject matter.
+- Fixed hero image with quote overlay, ensures the quote can always be read regardless of scroll.
+- Adjusts size of hero and quote for all devices, to ensure visibility and ease to read quote.
 
 > Introduction (What is Diversity & Inclusion?) section.
-    Fully responsive, and fills whitespace throughout all devices.
-    Split unordered list helps to eliminate this whitespace on larger devices.
+
+- Fully responsive, and fills whitespace throughout all devices.
+- Split unordered list helps to eliminate this whitespace on larger devices.
 
 > Information sections. (Diversity, Inclusion sections)
 
 > Tips section.
-    Fully responsive, with titles and text size matching when split into 2x2 row and columns on larger devices.
+- Fully responsive, with titles and text size matching when split into 2x2 row and columns on larger devices.
 
 > Links section.
-    Fully responsive, 1x6 column and rows for small devices, 2x3 column and rows for medium devices, finally 3x2 column and rows for larger devices.
-    Links within card component allows easy editing or change of links, and for updating or changing their styling.
+- Fully responsive, 1x6 column and rows for small devices, 2x3 column and rows for medium devices, finally 3x2 column and rows for larger devices.
+- Links within card component allows easy editing or change of links, and for updating or changing their styling.
 
 > Footer.
 
@@ -67,12 +74,10 @@ Note, this is not an exhaustive list of all wireframe images, the full low-fidel
 ![Links](https://github.com/user-attachments/assets/bb10013c-0c0f-4290-9266-922e1e61eb62)
 
 
-![Home](https://github.com/user-attachments/assets/77ad6337-a708-47c1-88dd-536c8a1e26dc)
 ![Introduction](https://github.com/user-attachments/assets/22e36899-21ee-413d-a386-d07544b3c1c8)
 ![Links](https://github.com/user-attachments/assets/dfcafd1e-f8ea-41f3-9a59-b60994eeae51)
 
 
-![Home](https://github.com/user-attachments/assets/fbaf39a5-a90a-4fec-a5e6-eb3788e8844b)
 ![Introduction](https://github.com/user-attachments/assets/e9487dae-2d6c-419f-999e-ea216ee1f107)
 ![Links](https://github.com/user-attachments/assets/d067a331-1922-4627-8d29-d5d41484ba3c)
 
