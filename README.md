@@ -20,6 +20,7 @@
 - [Intro](#Intro)
 - [Features](#Features)
 - [Wireframes](#Development-Considerations)
+- [Use of AI](#Use-of-AI)
 - [Testing](#Testing)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
@@ -90,6 +91,16 @@ Note, this is not an exhaustive list of all wireframe images, the full low-fidel
 
 [Back to Contents](#Contents)
 
+# Use of AI
+
+I used AI at times to rapidly build css template style rules, before modifying them further with my own declarations within the style rule.
+
+I also used AI for generating text content for the Diversity and Inclusion information sections.
+
+The use of AI within this project allowed for a more rapid development, by allowing myself to focus on design decisions rather than content. However I found it unnecessary to use AI to create large sections of code (especially in the HTML) because I have a good understanding of HTML and CSS, and with the emmet extension auto-complete features I found that this automation already provided a significant improvement to code writing time. I feared that having AI create large sections of code would not save time, as it would generate code I might not understand, or might have significant bloat within it that would take time to modify. This fear came from earlier work in my independent learning from the course.
+
+[Back to Contents](#Contents)
+
 # Testing
 
 1. HTML no errors were found when passed through the W3C Markup validator.
@@ -117,6 +128,8 @@ Bootstrap v5.3.3 was used to rapidly create this website, using pre-built navbar
 Google fonts; Quicksand, and Outfit.
 
 Fontawesome was used for some icons on the site.
+
+Repository template provided by Code Institute.
 
 ### Images
 
