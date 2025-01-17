@@ -21,6 +21,7 @@
 - [Features](#Features)
 - [Wireframes](#Development-Considerations)
 - [Use of AI](#Use-of-AI)
+- [Design Changes](#Design-Changes)
 - [Testing](#Testing)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
@@ -100,6 +101,13 @@ I also used AI for generating text content for the Diversity and Inclusion infor
 The use of AI within this project allowed for a more rapid development, by allowing myself to focus on design decisions rather than content. However I found it unnecessary to use AI to create large sections of code (especially in the HTML) because I have a good understanding of HTML and CSS, and with the emmet extension auto-complete features I found that this automation already provided a significant improvement to code writing time. I feared that having AI create large sections of code would not save time, as it would generate code I might not understand, or might have significant bloat within it that would take time to modify. This fear came from earlier work in my independent learning from the course.
 
 [Back to Contents](#Contents)
+
+# Design Changes
+
+- Only tablet and mobile needed the burger toggle. The navbar options were fully visible on small desktop/laptop screens.
+- Introduction title is shifted for desktop devices to be inline with text column, rather than above the image and text columns. This gave a better feel and look, and filled more whitespace within the content.
+- Tips section is split into two columns on devices larger than a tablet. (or tablet horizontal view and larger screens) Again, this filled in whitespace on the sides this time, as well as ease of readability, rather than having to read across the full width of a large screen.
+- Footer was un-fixed from the page, and neatly sits at the bottom of the page.
 
 # Testing
 
