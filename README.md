@@ -1,5 +1,8 @@
 # Diversity & Inclusion
 
+![all-devices-hero-image](https://github.com/user-attachments/assets/e4a455e3-0673-4e2b-a334-fae58943e302)
+![all-devices-introduction](https://github.com/user-attachments/assets/68959b2a-2747-4135-abf7-1d0e4f1d7f82)
+
 
 ## Project Brief
 
@@ -108,6 +111,8 @@ The use of AI within this project allowed for a more rapid development, by allow
 - Introduction title is shifted for desktop devices to be inline with text column, rather than above the image and text columns. This gave a better feel and look, and filled more whitespace within the content.
 - Tips section is split into two columns on devices larger than a tablet. (or tablet horizontal view and larger screens) Again, this filled in whitespace on the sides this time, as well as ease of readability, rather than having to read across the full width of a large screen.
 - Footer was un-fixed from the page, and neatly sits at the bottom of the page.
+
+[Back to Contents](#Contents)
 
 # Testing
 
