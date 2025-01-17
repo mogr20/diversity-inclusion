@@ -110,6 +110,17 @@ Whilst testing, I used Firefox for desktop and resized the viewport using develo
 [Back to Contents](#Contents)
 
 # Credits
+AI generated text content was used for a large amount of the Diversity, and Inclusion pages.
+
+Some AI generated code was used as a template, before being modified or added to.
+
+Bootstrap v5.3.3 was used to rapidly create this website, using pre-built navbar and card templates, with added personal CSS to modify or override and give the site its own styling.
+
+Google fonts; Quicksand, and Outfit.
+
+Fontawesome was used for some icons on the site.
+
+### Images
 
 ![hero-image.webp](https://github.com/user-attachments/assets/cc7d240f-f7b8-44ef-ac24-141d19b75da6)
 - [Fauxels](https://www.pexels.com/@fauxels/), stock image via the pexels site.
@@ -122,5 +133,18 @@ Whilst testing, I used Firefox for desktop and resized the viewport using develo
 
 ![equalities-office.webp](https://raw.githubusercontent.com/mogr20/diversity-inclusion/refs/heads/main/assets/images/equalities-office.webp)
 - [Gov Office Equality](https://www.gov.uk/government/organisations/office-for-equality-and-opportunity), logo from the Government Office for Equality and Opportunity.
+
+![business-disability-forum.webp](https://raw.githubusercontent.com/mogr20/diversity-inclusion/refs/heads/main/assets/images/business-disability-forum.webp)
+- [Business Disablity Forum](https://businessdisabilityforum.org.uk/) logo from the Business Disability Forum.
+
+![diversity-uk.webp](https://raw.githubusercontent.com/mogr20/diversity-inclusion/refs/heads/main/assets/images/diversity-uk.webp)
+- [Diversity UK](https://diversityuk.org/) logo from the Diversity UK site.
+
+![equality-and-human-rights-commission.webp](https://raw.githubusercontent.com/mogr20/diversity-inclusion/refs/heads/main/assets/images/equality-and-human-rights-commission.webp)
+- [Equality and Human Rights Commission](https://www.equalityhumanrights.com/) logo from the EHRC website.
+
+![ew-group-logo.webp](https://raw.githubusercontent.com/mogr20/diversity-inclusion/refs/heads/main/assets/images/ew-group-logo.webp)
+- [EW Group](https://theewgroup.com/) logo from the EW Group.
+
 
 [Back to Contents](#Contents)
