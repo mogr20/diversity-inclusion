@@ -122,6 +122,9 @@ I feared that having AI create large sections of code would not save time, as it
 1. HTML no errors were found when passed through the W3C Markup validator.
 - One warning is shown for the use of an aria-label on a background image div tag, however this is an accepted method to provide alt text for background images.
 2. CSS no errors were found when passed through the W3C CSS validator.
+3. Lighthouse shows performance issues for mobile, and contrast ratio issues for h3, h4, and h5 text.
+- The performance issues have been partially fixed by resizing the hero and intro images, and compacting their memory size, however this has failed to improve our rating to a 90% or higher.
+- The site colours were chosen via a colour palette site that generates a palette from an image. (in this instance, the hero image) Further development time can be put into using a contrasting tool to alter this font colour to a more suitable contrast. e.g. [webaim contrast checker](https://webaim.org/resources/contrastchecker/)
 
 Whilst testing, I used Firefox for desktop and resized the viewport using development tools, and also tested the site on my mobile. However during public testing, a user noticed that Chromium browsers for desktop render the site with a horizontal scroll bar, with about 10-20 pixels off to the right of the site.
 
